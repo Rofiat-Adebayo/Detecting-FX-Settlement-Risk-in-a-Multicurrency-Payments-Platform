@@ -63,15 +63,15 @@ Given the financial and regulatory exposure associated with FX discrepancies, th
  Financial Controls, Governance & Risk  
 
 
-[Dataset used for this analysis can be found here][(<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_fx_rates.csv>)].
+[Dataset used for this analysis can be found here](<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_fx_rates.csv>)
 
 
-[Dataset 2]([<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_transactions.csv>])
+[Dataset 2](<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_transactions.csv>)
 
 
-[Interactive dashboard with full analysis and reporting][(<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/Multi_currency%20Analysis.xlsx>)]**
+[Interactive dashboard with full analysis and reporting](<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/Multi_currency%20Analysis.xlsx>)
 
-
+---
 
 ## Data Structure & Initial Checks
 
@@ -93,7 +93,8 @@ The analysis is based on **two core tables**, representing transactional activit
 - from_currency  
 - to_currency (USD)  
 - rate
-- 
+
+
 Transaction and FX rate tables were joined at the transaction-date and currency level using Excel XLOOKUP to enable expected settlement calculations.
 
 <img width="314" height="381" alt="!relationship" src="https://github.com/user-attachments/assets/c7df023a-bf7f-4254-9295-9851f5ada7e3" />
@@ -105,7 +106,7 @@ Transaction and FX rate tables were joined at the transaction-date and currency 
 - No negative or invalid transaction amounts  
 - Fully aligned and valid currency codes  
 
-
+---
 
 
 ## Executive Summary
@@ -115,6 +116,7 @@ From a finance and operations leadership perspective, three key insights emerge.
 *Dashboard snapshot: overall settlement value, status distribution, and completion trends*
 
 <img width="622" height="398" alt="!multi currency" src="https://github.com/user-attachments/assets/f2d5b35a-782f-4040-b5b5-39b91e091939" />
+
 
 
 
@@ -130,7 +132,7 @@ From a finance and operations leadership perspective, three key insights emerge.
 
 *Visualization: Data quality validation summary*
 
-
+---
 
 ### Settlement Accuracy & FX Validation
 
@@ -141,7 +143,7 @@ From a finance and operations leadership perspective, three key insights emerge.
 
 *Visualization: Expected USD settlement by currency*
 
-
+---
 
 ### Operational Performance & Completion Trends
 
