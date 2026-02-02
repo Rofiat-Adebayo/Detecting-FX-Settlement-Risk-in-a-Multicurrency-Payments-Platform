@@ -2,6 +2,25 @@
 Analysis of multicurrency transaction data to validate FX conversion accuracy, settlement integrity, and financial controls. Identifies data quality issues, reconciliation gaps, and governance risks in a fintech payments context.
 
 
+## Table of Contents
+
+- [Project Snapshot](#project-snapshot)
+- [Project Background](#project-background)
+- [Key Insight Areas](#key-insight-areas)
+- [Data Structure & Initial Checks](#data-structure--initial-checks)
+  - [Table Descriptions](#table-descriptions)
+  - [Initial Data Quality Checks](#initial-data-quality-checks)
+- [Executive Summary](#executive-summary)
+- [Insights Deep Dive](#insights-deep-dive)
+  - [Data Quality & Integrity](#data-quality--integrity)
+  - [Settlement Accuracy & FX Validation](#settlement-accuracy--fx-validation)
+  - [Operational Performance & Completion Trends](#operational-performance--completion-trends)
+  - [Financial Controls, Governance & Risk](#financial-controls-governance--risk)
+-  [Recommendations](#recommendations)
+-  [Assumptions and Caveats](#assumptions-and-caveats)
+- [Author](#Author)
+
+
 
 ## Project Snapshot
 - Analyzed **1,000+ multi-currency transactions** to assess FX conversion accuracy and settlement integrity  
@@ -11,11 +30,13 @@ Analysis of multicurrency transaction data to validate FX conversion accuracy, s
 
 **Tools & Skills:**Tools & Skills: Excel (XLOOKUP, calculated fields), data quality analysis, FX rate validation, reconciliation logic, financial controls analysis, BI reporting
 
----
+
+
 
 ## Project Background
 
 This project was conducted from the perspective of a **Data Analyst working within a multinational payments and settlement platform** in the fintech industry. The company enables **cross-border, multi-currency transactions** for businesses via web, mobile, and API-based channels.
+
 
 The platform’s business model centers on:
 - High-volume transaction processing
@@ -23,13 +44,16 @@ The platform’s business model centers on:
 - USD settlement for global merchants
 - Reliability, auditability, and regulatory compliance
 
+
 Key business metrics monitored include:
 - Total USD settlement value
 - Transaction and customer counts
 - Settlement success, failure, and pending rates
 - FX conversion accuracy and reconciliation gaps
 
+
 Given the financial and regulatory exposure associated with FX discrepancies, this analysis focuses on **transaction integrity, settlement validation logic, and governance controls**.
+
 
 
 ### Key Insight Areas
@@ -39,12 +63,15 @@ Given the financial and regulatory exposure associated with FX discrepancies, th
  Financial Controls, Governance & Risk  
 
 
-Dataset used for this analysis can be found here[(<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_fx_rates.csv>)]
-Dataset([<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_transactions.csv>])
+Dataset used for this analysis can be found here[(<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_fx_rates.csv>)].
+
+
+Dataset 2([<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_transactions.csv>])
+
 
 Interactive dashboard with full analysis and reporting:**[(<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/Multi_currency%20Analysis.xlsx>)]**
 
----
+
 
 ## Data Structure & Initial Checks
 
@@ -65,7 +92,8 @@ The analysis is based on **two core tables**, representing transactional activit
 - date  
 - from_currency  
 - to_currency (USD)  
-- rate  
+- rate
+- 
 Transaction and FX rate tables were joined at the transaction-date and currency level using Excel XLOOKUP to enable expected settlement calculations.
 
 <img width="314" height="381" alt="!relationship" src="https://github.com/user-attachments/assets/c7df023a-bf7f-4254-9295-9851f5ada7e3" />
@@ -79,6 +107,7 @@ Transaction and FX rate tables were joined at the transaction-date and currency 
 
 
 
+
 ## Executive Summary
 
 From a finance and operations leadership perspective, three key insights emerge. First, **core transaction and FX reference data quality is strong**, reducing the risk of systemic reconciliation errors. Second, **settlement accuracy cannot be fully validated due to missing settlement_amount data**, representing a material governance and control gap. Third, **a meaningful portion of transaction value remains tied up in failed and pending states**, introducing liquidity and operational risk.
@@ -88,7 +117,9 @@ From a finance and operations leadership perspective, three key insights emerge.
 <img width="622" height="398" alt="!multi currency" src="https://github.com/user-attachments/assets/f2d5b35a-782f-4040-b5b5-39b91e091939" />
 
 
+
 ## Insights Deep Dive
+
 
 ### Data Quality & Integrity
 
@@ -99,7 +130,7 @@ From a finance and operations leadership perspective, three key insights emerge.
 
 *Visualization: Data quality validation summary*
 
----
+
 
 ### Settlement Accuracy & FX Validation
 
@@ -155,4 +186,17 @@ Several assumptions were required due to data limitations:
 - The sample dataset is representative of typical platform activity.
 
 These caveats should be resolved before using this analysis for financial reporting, audit sign-off, or regulatory submissions.
+
+
+## Author
+Rofiat Adebayo
+Data Analyst | Business Intelligence | Analytics & Insights
+
+Connect with me: (<https://www.linkedin.com/in/rofiat-adebayo/>)
+
+Contact: 07066609682
+
+
+                                                                                                                                                 
+ [⬆ Back to top](#top)
 
