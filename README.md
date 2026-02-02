@@ -1,12 +1,13 @@
 # Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform
 Analysis of multicurrency transaction data to validate FX conversion accuracy, settlement integrity, and financial controls. Identifies data quality issues, reconciliation gaps, and governance risks in a fintech payments context.
 
-# Multicurrency Transaction Integrity & FX Settlement Analysis
+
 
 ## Project Snapshot
 - Analyzed **1,000+ multi-currency transactions** to assess FX conversion accuracy and settlement integrity  
 - Joined transaction and FX rate datasets using Excel (XLOOKUP) to compute expected USD settlement values, and applied data quality and reconciliation validation checks        covering duplicates, FX coverage, invalid amounts, and deviation thresholds 
 - Identified a **critical settlement data governance gap** that prevents ±0.5% deviation monitoring, with direct financial and audit risk implications  
+
 
 **Tools & Skills:**Tools & Skills: Excel (XLOOKUP, calculated fields), data quality analysis, FX rate validation, reconciliation logic, financial controls analysis, BI reporting
 
