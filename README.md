@@ -6,6 +6,7 @@ Analysis of multicurrency transaction data to validate FX conversion accuracy, s
 
 - [Project Snapshot](#project-snapshot)
 - [Project Background](#project-background)
+- [Business Problem](#business-problem)
 - [Key Insight Areas](#key-insight-areas)
 - [Data Structure & Initial Checks](#data-structure--initial-checks)
   - [Table Descriptions](#table-descriptions)
@@ -28,9 +29,9 @@ Analysis of multicurrency transaction data to validate FX conversion accuracy, s
 - Identified a **critical settlement data governance gap** that prevents ±0.5% deviation monitoring, with direct financial and audit risk implications  
 
 
-**Tools & Skills:**Tools & Skills: Excel (XLOOKUP, calculated fields), data quality analysis, FX rate validation, reconciliation logic, financial controls analysis, BI reporting
+**Tools & Skills: Excel (XLOOKUP, calculated fields), data quality analysis, FX rate validation, reconciliation logic, financial controls analysis, BI reporting
 
-
+---
 
 
 ## Project Background
@@ -54,7 +55,29 @@ Key business metrics monitored include:
 
 Given the financial and regulatory exposure associated with FX discrepancies, this analysis focuses on **transaction integrity, settlement validation logic, and governance controls**.
 
+---
 
+
+## Business Problem
+
+As a multicurrency payments platform, the company faces **material financial, operational, and regulatory risk** if FX conversions and settlements are not accurately validated.
+
+At the time of analysis, the platform exhibited several critical challenges:
+- **No end-to-end settlement validation**, due to missing `settlement_amount` data
+- **Inability to enforce FX tolerance thresholds (±0.5%)**, limiting detection of over- or under-settlement
+- **Reactive reconciliation processes**, relying on manual review rather than automated controls
+- **Liquidity exposure**, with failed and pending transactions holding material settlement value
+- **Audit and regulatory risk**, stemming from incomplete settlement traceability
+
+These gaps reduced the company’s ability to confidently answer a fundamental question:
+
+ *“Did we settle the correct amount for every transaction, at the correct FX rate?”*
+
+
+This analysis was initiated to assess data quality, establish an **expected settlement baseline**, and surface governance gaps that could lead to undetected FX losses, misstatements, or erosion of trust with customers and regulators.
+
+
+---
 
 ### Key Insight Areas
  Data Quality & Integrity  
@@ -64,7 +87,7 @@ Given the financial and regulatory exposure associated with FX discrepancies, th
 
 
  Dataset used for this analysis can be found here:
- [Dataset](<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_fx_rates.csv>),[Dataset 2](<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_transactions.csv>)
+ [Dataset](<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_fx_rates.csv>),  [Dataset 2](<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_transactions.csv>)
 
 
 [Interactive dashboard with full analysis and reporting](<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/Multi_currency%20Analysis.xlsx>)
