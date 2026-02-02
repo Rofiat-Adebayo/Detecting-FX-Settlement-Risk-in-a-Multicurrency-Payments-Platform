@@ -155,7 +155,7 @@ From a finance and operations leadership perspective, three key insights emerge.
 ### Data Quality & Integrity
 
 - Duplicate transaction checks returned zero duplicates, indicating strong ingestion and identifier controls.
-- Insight 2:** FX rate coverage was complete across all transaction dates and currencies.
+- FX rate coverage was complete across all transaction dates and currencies.
 - No negative or zero-value transaction amounts were observed.
 - Currency codes were fully consistent across transaction and FX reference tables.
 
