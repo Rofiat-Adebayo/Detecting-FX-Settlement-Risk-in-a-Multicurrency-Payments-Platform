@@ -63,13 +63,13 @@ Given the financial and regulatory exposure associated with FX discrepancies, th
  Financial Controls, Governance & Risk  
 
 
-Dataset used for this analysis can be found here[(<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_fx_rates.csv>)].
+[Dataset used for this analysis can be found here][(<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_fx_rates.csv>)].
 
 
-Dataset 2([<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_transactions.csv>])
+[Dataset 2]([<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/ex1_transactions.csv>])
 
 
-Interactive dashboard with full analysis and reporting:**[(<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/Multi_currency%20Analysis.xlsx>)]**
+[Interactive dashboard with full analysis and reporting][(<https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/Multi_currency%20Analysis.xlsx>)]**
 
 
 
