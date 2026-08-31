@@ -4,7 +4,22 @@
 
 **An analytical investigation into FX conversion accuracy, settlement integrity, operational exposure, and financial controls across 1,000+ multicurrency transactions.**
 
+<br>
+
+![EXCEL](https://img.shields.io/badge/EXCEL-444444?style=flat-square&logo=microsoftexcel&logoColor=white)
+![DATA ANALYSIS](https://img.shields.io/badge/DATA%20ANALYSIS-666666?style=flat-square)
+![FINTECH](https://img.shields.io/badge/FINTECH-555555?style=flat-square)
+![FX ANALYSIS](https://img.shields.io/badge/FX%20ANALYSIS-777777?style=flat-square)
+![RECONCILIATION](https://img.shields.io/badge/RECONCILIATION-444444?style=flat-square)
+![FINANCIAL CONTROLS](https://img.shields.io/badge/FINANCIAL%20CONTROLS-666666?style=flat-square)
+![RISK ANALYSIS](https://img.shields.io/badge/RISK%20ANALYSIS-555555?style=flat-square)
+
+---
+
 <img width="622" height="398" alt="!multi currency" src="https://github.com/user-attachments/assets/f2d5b35a-782f-4040-b5b5-39b91e091939" />
+
+
+[View the interactive Excel analysis and reporting](https://github.com/Rofiat-Adebayo/Detecting-FX-Settlement-Risk-in-a-Multicurrency-Payments-Platform/blob/main/Multi_currency%20Analysis.xlsx)
 
 ---
 
